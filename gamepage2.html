@@ -1,0 +1,125 @@
+<html>
+<head>
+    <title>MULTIPAGE</title>
+    <meta name="viewport" content="width=device-width, initial-scale=2">
+    <meta name="description" content="play here via online and get more coins and bonus">
+    <meta name="keywords" content="ludo,game,player,online,daily bonus,spin,claim,coins">
+    <meta name="revisit-after" content="6days">
+    <link rel="stylesheet" type="text/css" href="game.css">
+    <script src="gamepage1.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js">
+    </script>
+    </head>
+    <body>
+        <div class="band">
+           <h4 id="name1"></h4><span id="score1"></span>
+           <h4 id="name2"></h4><span id="score2"></span></div>
+        <center><div class="root">
+            <div class="stem">
+                <h6>Ludo</h6>
+                <h7><b><i>Enter the name 'Sowmya'</i></b></h7>
+                <input type="text" id="reels" class="form_control" placeholder="Type your first entered name here"><br>
+                <h7><b><i>Enter the name 'Pinky'</i></b></h7>
+                <input type="text" id="tiktok" class="form_control" placeholder="Type your first entered name here"><br><br>
+                <h8 style="font-size: 20px; color: black;"><b><i>Click on the below button to see the winner</i></b></h8>
+            </div>
+            <br>
+            <br>
+           <button onclick="rolldice()" class="clicker"><b><i>𝓒𝓛𝓘𝓒𝓚𝓗𝓔𝓡𝓔</i></b></button>
+            <div id="finalop" class="dark">
+             <h6><b><i>sowmya wins in : </i></b></h6><br>
+                <label id="alpa">  </label><br>
+             <button onclick="rolldice1()" class="clicker"><b><i>𝓣𝓐𝓟𝓗𝓔𝓡𝓔</i></b></button>
+            <h6><b><i>Pinky wins in : </i></b></h6><br>
+                <label id="alpa1">  </label><br><br>
+             <p><b><i>Here out 5 games, the Winner is Sowmya and Looser is Pinky.So Sowmya have 1000 coins</i></b></p><br><br>
+                  <div class="end">
+              <h5 id="play1"></h5>
+              <h5 id="play2"></h5></div>
+            </div>
+            <script src="gamepage2.js"></script>
+        </div></center>
+    </body>
+    <style>
+        .end{
+            font-size: 30px; 
+            color:blueviolet;
+            height: 70px;
+            width: 200px;
+            font-weight: bold;
+            border-radius: 20px;
+            background-color:cyan;
+            padding: 5px;
+        }
+        .band{
+            height: 120px;
+            width: 80px;
+            font-size: 15px;
+            color: fuchsia;
+            font-style: italic;
+            font-family: monospace;
+            background-color:antiquewhite;
+        }
+       
+        body{
+           background-image: url("diceeeeeee.webp");
+           background-size: cover;
+           background-repeat: no-repeat;
+        }
+        h7{
+            font-size: 20px;
+            color: darkgoldenrod;
+            height:45px;
+            width: 850px;
+            border-radius: 30px;
+            background-color: antiquewhite;
+        }
+        p{
+            font-size: 20px;
+            color: darkgoldenrod;
+            text-align: center;
+            padding: 10px;
+            margin: 10px;
+        }
+        .stem{
+            border: 5px groove grey;
+            height: 400px;
+            width: 550px;
+            margin: 60px;
+            border-radius: 80px;
+        }
+        .root{
+            border: 10px groove darkgreen;
+            height: 1200px;
+            width: 750px;
+            margin:100px;
+            border-radius: 100px;
+            
+        }
+        .clicker{
+            font-size: 17px;
+            color: crimson;
+            height: 45px;
+            width: 60%;
+            border-radius: 15px;
+            background-color: chartreuse;
+        }
+        .clicker:hover{
+            background-color: antiquewhite;
+        }
+        .dark{
+            height: 500px;
+            width: 90%;
+            margin: 10px;
+            background-color: blanchedalmond;
+            border-radius: 130px;
+        }
+        h6{
+            font-size: 30px;
+            color: blueviolet;
+            font-family: cursive;
+        }
+    </style>
+</html>

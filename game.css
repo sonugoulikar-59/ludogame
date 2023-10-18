@@ -1,0 +1,55 @@
+body{
+    background-image: url(ludoking.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.gameone{
+    border: 4px groove grey;
+    font-size: 20px;
+    color:aquamarine;
+    width: 40%;
+    padding: 8px;
+}
+input[type="text"], input[type="password"]{
+    width: 70%;
+    padding: 18px;
+    margin: 5px;
+    background-color:antiquewhite;
+    border: 5px groove #e3a3e3;
+    font-size: 15px;
+    color: blueviolet;
+    border-radius: 25px;
+    
+}
+input[type="text"]:focus , input[type="password"]:focus{
+    border: 2px solid black;
+}
+.sowmya{
+    height: 50px;
+    width: 45%;
+    background-color:blueviolet;
+    font-size: 30px;
+    color:cornsilk;
+    border-radius: 30px;
+    
+}
+h1{
+    height:60px;
+    width: 20%;
+    border-radius: 50px;
+    font-size: 30px;
+    color: darkgreen;
+    background-color: cyan;
+    padding: 7px;
+}
+h2{
+    height: 55px;
+    width: 70%;
+    border-radius: 25px;
+    font-size: 25px;
+    color: cornflowerblue;
+    background-color: azure;
+}
+.sowmya:hover{
+    background-color: crimson;
+}
